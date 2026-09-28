@@ -1,0 +1,41 @@
+export type StackItem = {
+  name: string;
+  category: string;
+};
+
+export const stack: StackItem[] = [
+  { name: "Python", category: "Langages" },
+  { name: "Java", category: "Langages" },
+  { name: "JavaScript", category: "Langages" },
+  { name: "SQL", category: "Langages" },
+  { name: "Bash", category: "Langages" },
+  { name: "C", category: "Langages" },
+  { name: "Spring Boot", category: "Backend" },
+  { name: "Laravel", category: "Backend" },
+  { name: "Node.js", category: "Backend" },
+  { name: "REST APIs", category: "Backend" },
+  { name: "JWT", category: "Sécurité" },
+  { name: "OAuth2", category: "Sécurité" },
+  { name: "Microservices", category: "Backend" },
+  { name: "React", category: "Frontend" },
+  { name: "Angular", category: "Frontend" },
+  { name: "HTML / CSS", category: "Frontend" },
+  { name: "Bootstrap", category: "Frontend" },
+  { name: "MySQL", category: "Bases de données" },
+  { name: "PostgreSQL", category: "Bases de données" },
+  { name: "MongoDB", category: "Bases de données" },
+  { name: "Redis", category: "Bases de données" },
+  { name: "Firebase", category: "Bases de données" },
+  { name: "Docker", category: "Cloud & DevOps" },
+  { name: "Git / GitHub", category: "Outils" },
+  { name: "CI/CD", category: "Cloud & DevOps" },
+  { name: "Linux", category: "Cloud & DevOps" },
+  { name: "Proxmox", category: "Cloud & DevOps" },
+  { name: "Kubernetes", category: "Cloud & DevOps" },
+  { name: "Maven", category: "Outils" },
+  { name: "Postman", category: "Outils" },
+  { name: "Swagger / OpenAPI", category: "Outils" },
+  { name: "Truffle", category: "Blockchain" },
+  { name: "Ganache", category: "Blockchain" },
+  { name: "SCRUM / Agile", category: "Méthodes" },
+];
