@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# portfolio
-=======
 # Portfolio — Oussama Bartil
 
 Portfolio personnel construit avec **Next.js 14 (App Router)**, **TypeScript** et **Tailwind CSS**. Design "developer portfolio" sombre, accent cyan/turquoise, carte façon éditeur de code dans le hero.
@@ -110,4 +107,3 @@ npm run lint    # vérifie le code avec ESLint
 - Menu mobile réel (actuellement les liens de nav sont simplement masqués sous 800px).
 - Petites preuves sociales dans "À propos" (ex. badge "3 stages complétés", lien vers des recommandations LinkedIn).
 - Mode "impression" propre pour la page si un recruteur veut l'imprimer directement depuis le navigateur.
->>>>>>> fdbc136 (Initial commit)
